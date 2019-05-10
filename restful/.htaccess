@@ -1,0 +1,7 @@
+# 开启 rewrite 功能
+RewriteEngine on
+
+# 重写规则
+RewriteRule ^user$   user.php [NC,QSA,L]
+RewriteRule ^user/(\d+)$   user.php?id=$1 [NC,QSA,L]
+
