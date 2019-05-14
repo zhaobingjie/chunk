@@ -1,4 +1,4 @@
-/.idea
+*.idea*
 /72crm
 /educms
 /learngit
